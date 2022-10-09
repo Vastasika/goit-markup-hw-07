@@ -1,4 +1,4 @@
-/* Змінні */
+/* Змінні
 :root{
     --primary-text-color:#212121;
     --accent-color:#2196F3;
@@ -14,9 +14,9 @@
     --hero-background-color:#C4C4C4;
     --backgroun-color-icon:rgba(255, 255, 255, 0.1);
     --primary-cubic: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-/* Основні */
+/* Основні
 .list {
     list-style: none;
 }
@@ -84,10 +84,10 @@ section{
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 
-/* Хедер */
+/* Хедер
 .header{
     border-bottom: 1px solid var(--border-heder-color);
 }
@@ -192,9 +192,9 @@ color: var(--accent-color);
 .link-tel:focus svg
 {
     fill: var(--accent-color);
-}
+} */
 
-/* Банер */
+/* Банер
 .hero{ 
         text-align: center;
         padding: 200px 0;
@@ -248,9 +248,9 @@ color: var(--accent-color);
 .hero-btn:hover,
 .hero-btn:focus{
     background-color:var(--accent-background);
-}
+} */
 
-/* Переваги */
+/* Переваги
 .benefits{
     display: flex;
     justify-content: center;
@@ -288,9 +288,9 @@ margin-right: 30px;
 .benefits-text{
         line-height: 1.71;
         color: var(--secondary-text-color);
-}
+} */
 
-/* Роботи */
+/* Роботи
 .work{
     padding-bottom: 94px;
 }
@@ -329,10 +329,10 @@ color: var(--primary-color-white);
 
 .work-item:not(:last-child){
     margin-right: 30px;
-}
+} */
 
 
-/* Команда */
+/* Команда
 .section-team{
     padding-bottom: 94px;
     background-color:var(--secondary-background-color) ;
@@ -416,9 +416,9 @@ color: var(--primary-color-white);
 
 .team-icon{
     fill: var(--primary-icon-color);
-}
+} */
 
-/* Клієнти */
+/* Клієнти
 .clients{
     padding-bottom: 94px;
 }
@@ -463,9 +463,9 @@ transition: border 250ms var(--primary-cubic),fill 250ms var(--primary-cubic);
 .clients-icon:focus{
     border: 1px solid var(--accent-color);
     fill: var(--accent-color);
-}
+} */
 
-/* Портфоліо*/
+/* Портфоліо
 .portfolio-filters{
     padding-bottom: 94px;
 }
@@ -566,10 +566,10 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
         font-size: 16px;
         line-height: 1.88;
         color: var(--secondary-text-color);
-}
+} */
 
 
-/* Футер */
+/* Футер
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
@@ -623,7 +623,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
     color: var(--accent-color);
 }
 
-/* Підписка */
+Підписка
 .follow{
 margin: 0 93px 0 70px;
 }
@@ -731,9 +731,9 @@ margin-right: 12px;
     right: 28px;
     top: 50%;
     transform: translateY(-50%);
-}
+} 
 
-/* Бекдроп */
+Бекдроп
 .backdrop{
    position: fixed;
    top: 0;
